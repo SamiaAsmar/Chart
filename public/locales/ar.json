@@ -1,0 +1,124 @@
+{
+  "HomePage": {
+    "title": "مرحباً بالعالم!",
+    "cta": "ابدأ الآن",
+    "heroTitle": "نيكست شورتكت",
+    "heroDescription": "قالب حديث لنيكست جي إس مدعوم بواجهة مستخدم MUI مع مساحة لـ React Query و React Hook Form و Tailwind v4 اختيارياً.",
+    "toggleTheme": "تبديل السمة",
+    "chips": {
+      "mui": "MUI",
+      "reactHookForm": "React Hook Form",
+      "tailwind": "Tailwind v4 (اختياري)",
+      "typescript": "TypeScript",
+      "appRouter": "App Router"
+    },
+    "features": {
+      "title": "ماذا يتضمن",
+      "list": [
+        "Next.js 15 (App Router) + TypeScript",
+        "MUI ThemeProvider + واجهة مستخدم جاهزة للوضع الداكن",
+        "نموذج RHF في /sample-form",
+        "إضافة Tailwind v4 بسهولة (عبر واجهة سطر الأوامر)"
+      ]
+    },
+    "scaffold": {
+      "title": "البدء عبر npx",
+      "copy": "نسخ",
+      "copied": "تم النسخ!"
+    },
+    "techStack": {
+      "title": "التقنيات الحالية",
+      "description": "هذه هي التقنيات الأساسية التي تدعم هذا القالب. مرر المؤشر فوق كل شعار لمعرفة اسمه.",
+      "items": [
+        { "name": "MUI", "icon": "simple-icons:mui" },
+        { "name": "Tailwind CSS", "icon": "devicon:tailwindcss" },
+        { "name": "React", "icon": "devicon:react" },
+        { "name": "Next.js", "icon": "devicon:nextjs" },
+        { "name": "React Hook Form", "icon": "simple-icons:reacthookform" },
+        { "name": "TypeScript", "icon": "devicon:typescript" }
+      ]
+    },
+    "footer": "مبني بكل ❤️ بواسطة {{name}} باستخدام MUI. جاهز لـ Tailwind v4 و React Query والمزيد."
+  },
+  "common": {
+    "dark": "داكن",
+    "light": "فاتح",
+    "language": "اللغة",
+    "english": "الإنجليزية",
+    "arabic": "العربية",
+    "loading": "جار التحميل"
+  },
+  "validation": {
+    "invalidEmail": "عنوان البريد الإلكتروني غير صالح",
+    "emailRequired": "البريد الإلكتروني مطلوب",
+    "passwordMin6": "يجب أن تكون كلمة المرور على الأقل 6 أحرف",
+    "passwordMin8": "يجب أن تكون كلمة المرور على الأقل 8 أحرف",
+    "passwordRequired": "كلمة المرور مطلوبة",
+    "firstNameRequired": "الاسم الأول مطلوب",
+    "lastNameRequired": "اسم العائلة مطلوب",
+    "phoneRequired": "رقم الهاتف مطلوب",
+    "roleRequired": "الدور مطلوب",
+    "passwordsDoNotMatch": "كلمتا المرور غير متطابقتين",
+    "confirmPasswordRequired": "يرجى تأكيد كلمة المرور"
+  },
+  "login": {
+    "brand": "مرحباً بعودتك",
+    "subtitle": "سجل الدخول للمتابعة إلى حسابك",
+    "signInWithGoogle": "تسجيل الدخول باستخدام Google",
+    "signInWithMicrosoft": "تسجيل الدخول باستخدام Microsoft",
+    "or": "أو",
+    "signInWithEmail": "تسجيل الدخول بالبريد الإلكتروني",
+    "dontHaveAccount": "ليس لديك حساب؟",
+    "signUp": "إنشاء حساب",
+    "email": "البريد الإلكتروني",
+    "emailPlaceholder": "your@email.com",
+    "password": "كلمة المرور",
+    "signIn": "تسجيل الدخول",
+    "backToSocial": "العودة إلى تسجيل الدخول الاجتماعي",
+    "heroBefore": {
+      "overline": "مرحباً بعودتك",
+      "title": "سجل الدخول إلى حسابك",
+      "subtitle": "الوصول إلى لوحة التحكم وإدارة أعمالك",
+      "card1": {
+        "title": "لوحة التحليلات",
+        "desc": "تتبع أدائك من خلال رؤى في الوقت الفعلي"
+      },
+      "card2": {
+        "title": "وصول آمن",
+        "desc": "بياناتك محمية بأمان على مستوى المؤسسات"
+      }
+    },
+    "heroAfter": {
+      "overline": "ابدأ الآن",
+      "title": "أنشئ حسابك",
+      "subtitle": "انضم إلى الآلاف من الشركات التي تستخدم منصتنا بالفعل",
+      "card1": {
+        "title": "إعداد سريع",
+        "desc": "ابدأ في دقائق من خلال عملية الإعداد البسيطة"
+      },
+      "card2": {
+        "title": "التعاون الجماعي",
+        "desc": "ادعُ فريقك واعملوا معاً بسلاسة"
+      }
+    }
+  },
+  "signup": {
+    "title": "إنشاء حساب",
+    "subtitle": "قم بالتسجيل للبدء",
+    "firstName": "الاسم الأول",
+    "firstNamePlaceholder": "أحمد",
+    "lastName": "اسم العائلة",
+    "lastNamePlaceholder": "محمد",
+    "email": "البريد الإلكتروني",
+    "emailPlaceholder": "your@email.com",
+    "phone": "الهاتف",
+    "phonePlaceholder": "+966 50 123 4567",
+    "role": "الدور",
+    "roleHelp": "اختر دوراً لاختبار التفويض",
+    "password": "كلمة المرور",
+    "confirmPassword": "تأكيد كلمة المرور",
+    "create": "إنشاء حساب",
+    "alreadyHaveAccount": "هل لديك حساب بالفعل؟",
+    "signIn": "تسجيل الدخول"
+  }
+}
