@@ -1,1 +1,2 @@
 ## Next.js Template
+# Chart
