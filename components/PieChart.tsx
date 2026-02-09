@@ -2,11 +2,8 @@
 import { PieChart, pieArcLabelClasses } from '@mui/x-charts/PieChart'
 import { Checkbox, FormControlLabel, Stack, Typography, Box } from '@mui/material'
 import { useState, useMemo } from 'react'
-import { getContrastColor } from '../@core/utils/getContrastColor'
-
-const labels = ['Highly Satisfied', 'Satisfied', 'Neutral', 'Unsatisfied', 'Highly Unsatisfied', "I Don't Use It"]
-const values = [245, 412, 89, 56, 23, 67]
-const colors = ['#1F75FE', '#7EB0FF', '#c5cad0', '#FFAA80', '#FF6F3C', '#a0a7b1']
+import { ColorsUtils } from '@/@core/utils/ColorsUtils'
+import { pieLabels as labels, pieValues as values, pieColors as colors } from '@/@core/data/pieChartData'
 
 function PieChartCard() {
   const [hideLegend, setHideLegend] = useState(false)
@@ -112,7 +109,7 @@ function PieChartCard() {
           ...Object.fromEntries(
             pieData.map((item, index) => [
               `& text.${pieArcLabelClasses.root}:nth-of-type(${index + 1})`,
-              { fill: `#${getContrastColor(item.color)}` }
+              { fill: `#${ColorsUtils.getContrastColor(item.color)}` }
             ])
           ),
           '& .MuiChartsLegend-root': {
